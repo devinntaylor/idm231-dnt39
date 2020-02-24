@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+header,
+footer {
+    text-align: center;
+}
+
+#wrapper {
+    width: 56.25em;
+    height: 31.25em;
+    background-color: lightgreen;
+    margin: 1em auto;
+}
+
+body {
+    background-color: #333;
+    color: #fff;
+}
+
+#col_left {
+    background-color: red;
+    width: 12.5em;
+    float: left;
+}
+
+#col_right {
+    background-color: blue;
+    width: 43.75em;
+    float: left;
+}
