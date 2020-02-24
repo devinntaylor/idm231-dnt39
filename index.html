@@ -1,17 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Untitled Document</title>
+    <title>Devin Taylor · CEO Zodiac</title>
     <meta charset="UTF-8">
     <meta name="description" content="" />
     <meta name="keywords" content="" />
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="fontsheet.css">
 </head>
 
 <body>
-    <script src="variables.js"></script>
-    <script src="arrays.js"></script>
 
-</body>
+    <header>
+        <h1>Which CEO Are You?</h1>
+    </header>
 
-</html>
+    <div id="wrapper">
+        <div id="button">
+            <button id="ari">
+                <img src="icons/ariesicon.png" alt="aries icon"></button>
+            <button id="tau">
+                <img src="icons/taurusicon.png" alt="taurus icon"></button>
+            <button id="gem">
+                <img src="icons/geminiicon.png" alt="gemini icon"></button>
+            <button id="can">
+                <img src="icons/cancericon.png" alt="cancer icon"></button>
+            <button id="leo">
+                <img src="icons/leoicon.png" alt="leo icon"></button>
+            <button id="vir">
+                <img src="icons/virgoicon.png" alt="virgo icon"></button>
+            <button id="lib">
+                <img src="icons/libraicon.png" alt="libra icon"></button>
+            <button id="sco">
+                <img src="icons/scorpioicon.png" alt="scorpio icon"></button>
+            <button id="sag">
+                <img src="icons/sagittariusicon.png" alt="sagittarius icon"></button>
+            <button id="cap">
+                <img src="icons/capricornicon.png" alt="capricorn icon"></button>
+            <button id="aqu">
+                <img src="icons/aquariusicon.png" alt="aquarius icon"></button>
+            <button id="pis">
+                <img src="icons/piscesicon.png" alt="pisces icon"></button>
+        </div>
+    </div>
+
+    <div class="startText">
+        <p>
+            Enter your birthday in the calendar below or click the buttons above to discover your Tech CEO Twin!
+        </p>
+    </div>
+
+    <div id="startImage">
+        <img id="hero" src="images/questionmark.png" alt="questionmark" />
+    </div>
+
+    <div id="container">
+        <form action="">
+            <label for="zods">Birthday</label>
+            <input type="date" id="zodDate" name="zodDate">
+        </form>
+        <button id="compute" onclick="computeZod();">GO!</button>
+        <div id="showMe"></div>
+
+    </div>
+    <footer class="copyright">
+        <div class="up" id="up">
+            <i class="fas fa-chevron-up"></i>
+            <p>&copy; 2020 Devin Taylor</p>
+        </div>
+    </footer>
+    <script src="picker.js"></script>
+    <script src="main.js"></script>
+
+</body></html>

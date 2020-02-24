@@ -1,0 +1,68 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+header,
+footer {
+    text-align: center;
+}
+
+header,
+body,
+div {
+    text-align: center;
+    max-height: 800px;
+    max-width: 1200px;
+}
+
+header,
+p,
+label,
+button,
+input {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-image: url(images/background2.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 1rem;
+}
+
+header,
+footer,
+label {
+    color: white;
+}
+
+button img {
+    width: 3rem;
+    height: 3rem;
+}
+
+button {
+    background-color: transparent;
+    outline-color: none;
+    border: none;
+}
+
+#compute {
+    color: white;
+    font-size: 18px;
+}
+
+#showMe {
+    font-size: 20px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+    font-size: 15px;
+}
