@@ -12,6 +12,8 @@
 
 <body>
 
+
+
     <header>
         <h1>Which CEO Are You?</h1>
     </header>
@@ -44,11 +46,15 @@
                 <img src="icons/piscesicon.png" alt="pisces icon"></button>
         </div>
     </div>
+    <div id="button">
+        <button id="home">Home</button>
+    </div>
 
     <div class="startText">
         <p>
             Enter your birthday in the calendar below or click the buttons above to discover your Tech CEO Twin!
         </p>
+
     </div>
 
     <div id="startImage">
@@ -60,16 +66,26 @@
             <label for="zods">Birthday</label>
             <input type="date" id="zodDate" name="zodDate">
         </form>
+
         <button id="compute" onclick="computeZod();">GO!</button>
         <div id="showMe"></div>
 
     </div>
+
     <footer class="copyright">
         <div class="up" id="up">
             <i class="fas fa-chevron-up"></i>
             <p>&copy; 2020 Devin Taylor</p>
         </div>
     </footer>
+    <div id="button">
+        <button id="help">Help</button>
+    </div>
+
+    <audio src="sounds/iphone.mp3" id=soundPlayer>
+        <p>Your browser is weak get with the program.</p>
+    </audio>
+
     <script src="picker.js"></script>
     <script src="main.js"></script>
 

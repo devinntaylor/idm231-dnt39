@@ -1,6 +1,7 @@
 let zodDateObj = document.getElementById('zodDate');
 let showMeObj = document.getElementById('showMe');
 
+
 function computeZod() {
     let userBday = zodDateObj.value;
     console.log('userBday is ' + userBday);
@@ -18,38 +19,51 @@ function computeZod() {
         console.log('WRONGGGGGGGGGGG!');
     }
 
-    showMeObj.innerHTML = dateToZodiac(monNum, dayNum);
+    //    showMeObj.innerHTML = dateToZodiac(monNum, dayNum);
+    dateToZodiac(monNum, dayNum);
 }
 
 function dateToZodiac(whichMonth, whichDayOfMonth) {
     if ((whichMonth == 12 && whichDayOfMonth >= 22) || (whichMonth == 1 && whichDayOfMonth <= 19)) {
-        AstroSign = "Jeff Bezos ... December 22 - January 19";
+        //        AstroSign = "Jeff Bezos ... December 22 - January 19";
+        swapZodInfo(1);
     } else if ((whichMonth == 11 && whichDayOfMonth >= 22) || (whichMonth == 12 && whichDayOfMonth <= 21)) {
-        AstroSign = "Tim Cook ... November 22 - December 21";
+        //        AstroSign = "Tim Cook ... November 22 - December 21";
+        swapZodInfo(2);
     } else if ((whichMonth == 10 && whichDayOfMonth >= 24) || (whichMonth == 11 && whichDayOfMonth <= 21)) {
-        AstroSign = "Evan Spiegel ... October 23 - November 21";
+        //        AstroSign = "Evan Spiegel ... October 23 - November 21";
+        swapZodInfo(3);
     } else if ((whichMonth == 9 && whichDayOfMonth >= 23) || (whichMonth == 10 && whichDayOfMonth <= 23)) {
-        AstroSign = "Jack Dorsey ... September 23 - October 22";
+        //        AstroSign = "Jack Dorsey ... September 23 - October 22";
+        swapZodInfo(4);
     } else if ((whichMonth == 8 && whichDayOfMonth >= 23) || (whichMonth == 9 && whichDayOfMonth <= 22)) {
-        AstroSign = "Mark Zuckerberg ... August 23 - September 22";
+        //        AstroSign = "Mark Zuckerberg ... August 23 - September 22";
+        swapZodInfo(5);
     } else if ((whichMonth == 7 && whichDayOfMonth >= 23) || (whichMonth == 8 && whichDayOfMonth <= 22)) {
-        AstroSign = "Elon Musk ... July 23 - August 22";
+        //        AstroSign = "Elon Musk ... July 23 - August 22";
+        swapZodInfo(6);
     } else if ((whichMonth == 6 && whichDayOfMonth >= 22) || (whichMonth == 7 && whichDayOfMonth <= 22)) {
-        AstroSign = "Dan Schulman ... June 21 - July 22";
+        //        AstroSign = "Dan Schulman ... June 21 - July 22";
+        swapZodInfo(7);
     } else if ((whichMonth == 5 && whichDayOfMonth >= 21) || (whichMonth == 6 && whichDayOfMonth <= 21)) {
-        AstroSign = "Logan Green ... May 21 - June 20";
+        //        AstroSign = "Logan Green ... May 21 - June 20";
+        swapZodInfo(8);
     } else if ((whichMonth == 4 && whichDayOfMonth >= 20) || (whichMonth == 5 && whichDayOfMonth <= 20)) {
-        AstroSign = "Satya Nadella ... April 20 - May 20";
+        //        AstroSign = "Satya Nadella ... April 20 - May 20";
+        swapZodInfo(9);
     } else if ((whichMonth == 3 && whichDayOfMonth >= 21) || (whichMonth == 4 && whichDayOfMonth <= 19)) {
-        AstroSign = "Reed Hastings ... March 21 - April 19";
+        //        AstroSign = "Reed Hastings ... March 21 - April 19";
+        swapZodInfo(10);
     } else if ((whichMonth == 2 && whichDayOfMonth >= 19) || (whichMonth == 3 && whichDayOfMonth <= 20)) {
-        AstroSign = "Jason Citron ... Febryary 19 - March 20";
+        //        AstroSign = "Jason Citron ... Febryary 19 - March 20";
+        swapZodInfo(11);
     } else if ((whichMonth == 1 && whichDayOfMonth >= 20) || (whichMonth == 2 && whichDayOfMonth <= 18)) {
-        AstroSign = "Stewart Butterfield ... January 20 - February 18";
+        //        AstroSign = "Stewart Butterfield ... January 20 - February 18";
+        swapZodInfo(12);
     } else if ((whichMonth == 1 && whichDayOfMonth >= 20) || (whichMonth == 1 && whichDayOfMonth <= 18)) {
 
     } else {
         AstroSign = "INVALID DATE"
     }
-    return AstroSign;
+    //    return AstroSign;
 }

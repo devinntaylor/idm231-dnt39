@@ -19,6 +19,7 @@ div {
     text-align: center;
     max-height: 800px;
     max-width: 1200px;
+    margin: auto;
 }
 
 header,
@@ -29,17 +30,23 @@ input {
     font-family: 'Open Sans', sans-serif;
 }
 
+header,
+p,
+label,
+button {
+    filter: invert();
+}
+
 body {
-    background-image: url(images/background2.jpg);
+    /* add background image */
+    background-image: url(images/background11.jpg);
     background-repeat: no-repeat;
     padding-bottom: 1rem;
 }
 
 header,
 footer,
-label {
-    color: white;
-}
+label {}
 
 button img {
     width: 3rem;
@@ -53,16 +60,46 @@ button {
 }
 
 #compute {
-    color: white;
     font-size: 18px;
+    font-weight: 500;
 }
 
-#showMe {
+#showMe,
+strong,
+.p {
     font-size: 20px;
-    color: white;
     font-family: 'Open Sans', sans-serif;
+    max-width: 700px;
+    text-align: center;
 }
 
 footer {
     font-size: 15px;
+}
+
+#help {
+    margin-bottom: 2rem;
+    font-size: 13px;
+}
+
+#help p {
+    color: white;
+    font-weight: 500;
+}
+
+#home {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+strong {
+    filter: invert();
+}
+
+.startText {
+    font-weight: 550;
+}
+
+#container {
+    font-weight: 500;
 }
