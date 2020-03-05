@@ -13,7 +13,7 @@ let capObj = document.getElementById('cap');
 let aquObj = document.getElementById('aqu');
 let pisObj = document.getElementById('pis');
 
-ariObjObj.addEventListener('click', function () {
+ariObj.addEventListener('click', function () {
     swapZodInfo(1);
 }, false);
 
@@ -49,7 +49,7 @@ sagObj.addEventListener('click', function () {
     swapZodInfo(9);
 }, false);
 
-capObjObj.addEventListener('click', function () {
+capObj.addEventListener('click', function () {
     swapZodInfo(10);
 }, false);
 
