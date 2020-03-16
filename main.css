@@ -8,14 +8,11 @@ html {
     box-sizing: inherit;
 }
 
-header,
-footer {
-    text-align: center;
-}
 
 header,
 body,
-div {
+div,
+footer {
     text-align: center;
     max-height: 800px;
     max-width: 1200px;
@@ -39,7 +36,7 @@ button {
 
 body {
     /* add background image */
-    background-image: url(images/background11.jpg);
+    background-image: url(images/background6%20copy.jpg);
     background-repeat: no-repeat;
     padding-bottom: 1rem;
 }
@@ -60,26 +57,40 @@ button {
 }
 
 #compute {
-    font-size: 18px;
+    font-size: 28px;
     font-weight: 500;
+    border: 2px solid black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: black;
+    color: white;
 }
 
 #showMe,
 strong,
 .p {
-    font-size: 20px;
     font-family: 'Open Sans', sans-serif;
     max-width: 700px;
-    text-align: center;
+    padding-top: 8px;
 }
 
-footer {
+footer p {
     font-size: 15px;
+    text-align: center;
 }
 
 #help {
     margin-bottom: 2rem;
-    font-size: 13px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: black;
+    color: white;
 }
 
 #help p {
@@ -88,18 +99,49 @@ footer {
 }
 
 #home {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
+    border: 2px solid black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: black;
+    color: white;
 }
 
 strong {
     filter: invert();
+    font-size: 28px;
 }
 
-.startText {
+.startText p {
     font-weight: 550;
+    text-align: center;
+    font-size: 18px;
 }
 
 #container {
     font-weight: 500;
+    font-size: 18px;
+}
+
+form input {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+form {
+    padding-bottom: 1rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+p {
+    text-align: left;
+    font-size: 22px;
 }

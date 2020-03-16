@@ -100,7 +100,7 @@ function swapZodInfo(whichOne) {
         heroObj.src = 'images/evanspiegel1.jpg';
         playSomething('sounds/snapchat.mp3');
     } else if (whichOne == 4) {
-        showMeObj.innerHTML = "<strong>Jack Dorsey ... September 23 - October 22 </strong> <p> n 2007 at the Southwest Festival, Dorsey fiercely promoted Twitter. After this one night, Twitter's popularity usage tripled with a growth rate of 1300%, a number most websites can only dream of. When Mark Zuckerberg offered to buy it out, Jack Dorsey and the team decided that they wanted to make it a legend of their own. </p>"
+        showMeObj.innerHTML = "<strong>Jack Dorsey ... September 23 - October 22 </strong> <p> In 2007 at the Southwest Festival, Dorsey fiercely promoted Twitter. After this one night, Twitter's popularity usage tripled with a growth rate of 1300%, a number most websites can only dream of. When Mark Zuckerberg offered to buy it out, Jack Dorsey and the team decided that they wanted to make it a legend of their own. </p>"
         heroObj.src = 'images/jackdorsey2.jpg';
         playSomething('sounds/twitter.mp3');
     } else if (whichOne == 5) {
@@ -116,7 +116,7 @@ function swapZodInfo(whichOne) {
         heroObj.src = 'images/danschulman3.png';
         playSomething('sounds/paypal.mp3');
     } else if (whichOne == 8) {
-        showMeObj.innerHTML = "<strong>Logan Green ... May 21 - June 20 </strong> <p> espite being a founder of a successful ride sharing business, Green carpools to work in the morning and will usually take a lyft ride home. In the early days of the company, Green lived in a Silicon Valley space referred to as apartice because it served as both an apartment and office. He slept on a couch and survived off of Trader Joes microwaveable meals. </p>";
+        showMeObj.innerHTML = "<strong>Logan Green ... May 21 - June 20 </strong> <p> Despite being a founder of a successful ride sharing business, Green carpools to work in the morning and will usually take a lyft ride home. In the early days of the company, Green lived in a Silicon Valley space referred to as apartice because it served as both an apartment and office. He slept on a couch and survived off of Trader Joes microwaveable meals. </p>";
         heroObj.src = 'images/logangreen.jpg';
         playSomething('sounds/lyft.mp3');
     } else if (whichOne == 9) {
