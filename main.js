@@ -132,7 +132,7 @@ function swapZodInfo(whichOne) {
         heroObj.src = 'images/jasoncitron.jpg';
         playSomething('sounds/discord.mp3');
     } else if (whichOne == 12) {
-        showMeObj.innerHTML = "<strong> Stewart Butterfield ... January 20 - February 18 </strong> <p> Raised by hippie parents, Stewart's birthname was Dharma. He was among the pioneer cohort of children to grow up with a computer. Butterfield does not have any formal education in computer science, holding his B.A. and Masters in Philosophy. Butterfield has described Slack as a giant piece of shit and acknowledges his team has a long way to go. </p>";
+        showMeObj.innerHTML = "<strong> Stewart Butterfield ... January 20 - February 18 </strong> <p> Raised by hippie parents, Stewart's birthname was Dharma. He was among the pioneer cohort of children to grow up with a computer. Butterfield does not have any formal education in computer science, holding his B.A. and Masters in Philosophy. Butterfield has described Slack as a giant piece of sh*t and acknowledges his team has a long way to go. </p>";
         heroObj.src = 'images/stewartbutterfield1.jpg';
         playSomething('sounds/slack.mp3');
     } else if (whichOne == 13) {
